@@ -88,3 +88,35 @@ li{
 
 
 
+@media (max-width: 768px) {
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px;
+    font-size: 1.2rem;
+    word-break: break-word;
+  }
+
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .button-group button {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
